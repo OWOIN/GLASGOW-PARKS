@@ -5,10 +5,61 @@
 /* Full Screen Section end */
 
 /* Discover the best part of Glasgow Section start */
+.display-5 {
+    color: #cc704b;
+}
 /* Discover the best part of Glasgow Section end */
 
 /* Where to go Section start */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+}
+
+.parkCard {
+    position: relative;
+    width: 100%;
+}
+
+.parkCard-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.parkCard-link {
+    height: 100%;
+}
+
+.parkCard-link:hover > .parkCard-body{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.parkCard-body {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
 /* Where to go Section end */
+
 
 /* Footer start */
 /* Footer end */
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

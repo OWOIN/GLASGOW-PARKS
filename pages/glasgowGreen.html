@@ -1,47 +1,146 @@
-<section class="carouselSection">
-    <h1 class="title-carousel my-5">Botanic Gardens</h1>
-    <div id="Botanic-Gardens" class="carousel slide" data-bs-ride="carousel">
-        <!-- carousel Indicators-->
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#parkCarousel" data-bs-slide-to="0" class="active" aria-current="true"
-                aria-label="Slide 1"></button>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glasgow Green</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/parks.css" />
+  </head>
+  <body>
+    <!-- Carousel Start -->
 
-            <button type="button" data-bs-target="#parkCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <!-- Carousel End -->
+    <!-- Information Start -->
+    <section class="container-sm px-5 py-5">
+      <h3 class="display-6">Glasgow Green</h3>
+      <div class="info-grid">
+        <div class="left">
+          <p class="discover-text my-3">
+            Glasgow Green is on the banks of the Clyde, to the east of the city
+            centre. It is the oldest official park in the city and was
+            established around the 15th century. The Park itself is about 136
+            acres in size and was awarded the “Green Flag award” which is the
+            national benchmark for green spaces and parks.
+          </p>
 
-            <button type="button" data-bs-target="#parkCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-
-            <button type="button" data-bs-target="#parkCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#parkCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-
+          <div class="accordion accordion pt-4" id="parkAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                >
+                  Location & Transport
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingOne"
+                data-bs-parent="#parkAccordion"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Glasgow Green is a large park with many enterances, but is
+                    most easily accessable via a 5 minute walk for Argyle Street
+                    train station.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Opening Hours
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#parkAccordion"
+              >
+                <div class="accordion-body">
+                  <p>
+                    The park has no gates so is never officially shut, However
+                    due to its size, much of the park is not lit up at night so
+                    going after dark is not recommended.
+                  </p>
+                  <ul>
+                    <li class="info-li">Winter Gardens: 10am - 5pm</li>
+                    <li class="info-li">West Brewery: 11am - 12am</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  History
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#parkAccordion"
+              >
+                <div class="accordion-body">
+                  <p>
+                    The park was officially given to the people of Glasgow in
+                    1450 by King James II. It took about 100 years for the
+                    marshland from the side of the clyde to be cleared and the
+                    park became more recognisable to what we see today.
+                  </p>
+                  <p>
+                    Nelson's Monument was constructed in 1806 and the St Andrews
+                    Bridge was built in 1855 to allow an easy crossing over the
+                    river from within the park. The Peoples Palace and fountain
+                    were built around 1881.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <!-- carousel Items -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="../img/parks/botanicGardens/kibble-palace.png" class="d-block w-100" alt="kibble palace">
-            </div>
-            <div class="carousel-item">
-                <img src="../img/parks/botanicGardens/interior.png" class="d-block w-100" alt="interior">
-            </div>
-            <div class="carousel-item">
-                <img src="../img/parks/botanicGardens/glasshouse.png" class="d-block w-100" alt="glasshouse">
-            </div>
-            <div class="carousel-item">
-                <img src="../img/parks/botanicGardens/palmHouse.png" class="d-block w-100" alt="palm House">
-            </div>
-            <div class="carousel-item">
-                <img src="../img/parks/botanicGardens/elfStatue.png" class="d-block w-100" alt="elf Statue">
-            </div>
+        <div class="right">
+          <img class="info-img" src="#" alt="Glasgow Green" />
         </div>
-
-        <!-- carousel Control -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#parkCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#parkCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</section>
+      </div>
+    </section>
+    <!-- Information End -->
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

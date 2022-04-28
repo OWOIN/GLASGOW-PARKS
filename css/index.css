@@ -1,4 +1,18 @@
 /* Navbar start */
+
+/* bootstrap fixes*/
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;
+    /*this puts the icon in the middle*/
+}
+
+.navbar-nav.me-auto.my-2.my-lg-0.navbar-nav-scroll {
+    margin-left: 85%;
+    /* this pushes the dropdown to the left*/
+}
+
 /* Navbar end */
 
 /* Full Screen Section start */

@@ -33,35 +33,46 @@
         <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
-      <a class="navbar-brand" href="index.html">
-        <img src="logos/owltransparent.png" alt="" width="38" height="50">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Parks
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-              <li><a class="dropdown-item" href="pages/botanicGardens.html">Botanic Gardens</a></li>
-              <li><a class="dropdown-item" href="pages/glasgowGreen.html">Glasgow Green</a></li>
-              <li><a class="dropdown-item" href="pages/kelvinGrove.html">Kelvin Grove</a></li>
-              <li><a class="dropdown-item" href="pages/pollock.html">Pollock</a></li>
-              <li><a class="dropdown-item" href="pages/victoria.html">Victoria</a></li>
-              <li>
-              </li>
-            </ul>
-          </li>
-        </ul>
+    </div>
+    <a class="navbar-brand" href="index.html">
+      <img src="logos/owltransparent.png" alt="" width="38" height="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+      aria-controls="navbarScroll" aria-exp nded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <div id="navbarHide">
+        <li><a class="dropdown-item" href="pages/botanicGardens.html">Botanic Gardens</a></li>
+        <li><a class="dropdown-item" href="pages/glasgowGreen.html">Glasgow Green</a></li>
+        <li><a class="dropdown-item" href="pages/kelvinGrove.html">Kelvin Grove</a></li>
+        <li><a class="dropdown-item" href="pages/pollock.html">Pollock</a></li>
+        <li><a class="dropdown-item" href="pages/victoria.html">Victoria</a></li>
       </div>
+      <div id="dropdownHide">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Parks
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="pages/botanicGardens.html">Botanic Gardens</a></li>
+            <li><a class="dropdown-item" href="pages/glasgowGreen.html">Glasgow Green</a></li>
+            <li><a class="dropdown-item" href="pages/kelvinGrove.html">Kelvin Grove</a></li>
+            <li><a class="dropdown-item" href="pages/pollock.html">Pollock</a></li>
+            <li><a class="dropdown-item" href="pages/victoria.html">Victoria</a></li>
+            <li>
+            </li>
+          </ul>
+        </div>
+        </li>
+      </ul>
+      </div>
+    </div>
     </div>
   </nav>
   <!-- Navbar end -->
@@ -75,13 +86,14 @@
             <h1 id="heading-primary"> A Great Weekend In Glasgow </h1>
           </div>
         </a>
-      </div>
-      <!--<div id="peopleMakeGlasgow">
+    <div id="peopleMakeGlasgow">
       <img id="peopleMakeGlasgowLogo" src="logos/people-make-glasgow.png" alt="People Make Glasgow">
     </div>
-  -->
     </div>
     </div>
+    </header>
+
+
   </header>
   <!-- Full Screen Section end -->
 
@@ -170,6 +182,7 @@
       Arjun Sanghera &#8226; Daryl Stensland &#8226; Owen Taylor &#8226; Isabel Tizon Arranz
     </div>
   </footer>
+    <!-- Footer ends -->
   <!-- Bs Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">

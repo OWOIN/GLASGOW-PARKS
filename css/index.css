@@ -21,9 +21,23 @@ font-family: 'Nunito', sans-serif;
 
 
 
-.navbar-nav.me-auto.my-2.my-lg-0.navbar-nav-scroll {
-    margin-left: 85%;
+#navbarScroll {
+    margin-right: 8vw;
     /* this pushes the dropdown to the left*/
+}
+
+.navbar-collapse.collapse.show , .navbar-collapse.collapsing {
+    text-align: end;
+}
+#navbarHide {
+    display: none;
+}
+#dropdownHide {
+
+}
+.navbar-nav.me-auto.my-2.my-lg-0.navbar-nav-scroll {
+--bs-scroll-height: 200px !important ;
+/* this fixes strange problem with dropdown in the navbar*/
 }
 
 /* Navbar end */
@@ -52,14 +66,20 @@ font-family: 'Nunito', sans-serif;
 #heading-primary {
     color: #f5f5f5;
     font-size: 70px;
+    position: relative;
 }
 
 #peopleMakeGlasgowLogo {
-    width: 10vw;
-    bottom: 0;
-    right: 0;
-
-    
+    max-width: 200px;
+    min-width: 100px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 29vw;
+    -webkit-box-shadow: 10px 7px 25px 5px rgba(0,0,0,0.52); 
+    box-shadow: 10px 7px 25px 5px rgba(0,0,0,0.52);
+ 
+ 
 
     
 }
@@ -166,11 +186,44 @@ html {
     #heading-primary {
         font-size: 55px;
     }
+    
+    .navbar-brand {
+        margin-left: 0;
+    }
+    #peopleMakeGlasgowLogo {
+        max-width: 120px;
+        position: absolute;
+        margin-top: 20vh;
+        margin-left: 28vw;
+    }
+    #navbarHide {
+        display:block;
+    }
+    #navbarScroll {
+        margin-right: 0vw;
+
+        /* this pushes the dropdown to the left*/
+    }
+
+    #dropdownHide {
+        display: none;
+        /*hides dropdown in collapsed navbar */
+    }
 }
 
 @media only screen and (max-width: 600px) {
 
     #heading-primary {
         font-size: 30px;
+    }
+    #peopleMakeGlasgowLogo {
+        max-width: 100px;
+        position: absolute;
+        margin-top: 20vh;
+        margin-left: 20vw;
+
+    
+    
+        
     }
 }

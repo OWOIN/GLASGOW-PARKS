@@ -161,6 +161,9 @@ html {
 	.grid {
 		grid-template-columns: repeat(3, 1fr);
 	}
+	.parkCard{
+		/* min-height: 400px; */
+	}
 	#heading-primary {
 		font-size: 60px;
 	}
@@ -169,6 +172,9 @@ html {
 @media only screen and (max-width: 992px) {
 	.grid {
 		grid-template-columns: repeat(2, 1fr);
+	}
+	.parkCard {
+		min-height: 280px;
 	}
 	.d-flex {
 		display: none !important;

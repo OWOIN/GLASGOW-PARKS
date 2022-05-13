@@ -173,6 +173,47 @@ span {
 
 /* Activities Section end*/
 
+/* Newsletter Styles */
+.newsletter {
+	background-color: rgb(228, 237, 222);
+	padding: 0 10%;
+	margin-bottom: 50px;
+}	
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-group {
+	display: flex;
+	align-items: center;
+	width: 70%;
+	
+}
+
+.form-control {
+	border: 1px solid #000;
+}
+
+.checkbox {
+	width: 20px;
+	height: 20px;
+}
+
+.btn-secondary {
+	background-color: #5e493b !important;
+	border: solid 1px #5e493b;
+}
+
+.btn-secondary:hover {
+	background-color: #3f3127 !important;
+	border: solid 1px #3f3127;
+}
+
+/* Newsletter end */
+
 /* Footer start */
 html {
 	position: relative;

@@ -34,8 +34,7 @@ body {
 #navbarHide {
 	display: none;
 }
-#dropdownHide {
-}
+
 .navbar-nav.me-auto.my-2.my-lg-0.navbar-nav-scroll {
 	--bs-scroll-height: 200px !important ;
 	/* this fixes strange problem with dropdown in the navbar*/
@@ -128,6 +127,25 @@ body {
 
 /* Where to go Section end */
 
+/*newsletter*/
+#newsletter {
+	margin-bottom: 100px;
+	text-align: center;
+	background-color: #edf3e8;
+	padding: 100px;
+}
+#indexForm {
+	text-align: left;
+
+}
+#formSumbitButton {
+	background-color: #916c4d !important;
+	padding: 10px 40px 10px 20px;
+}
+
+/*newsletter end*/
+
+
 /* Footer start */
 html {
 	position: relative;
@@ -145,6 +163,35 @@ html {
 	/* Vertically center the text there */
 	color: grey;
 	text-align: center;
+	margin-top: 100px;
+}
+#socialLinks {
+	background-color: #ffffff;
+	color: #000000;
+}
+#bottomFooter {
+	background-color: #604126;
+	color:#f5f5f5 ;
+
+}
+.socialsAlinks {
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+}
+.linksList {
+	line-height: 20px;
+}
+.socialsAlinkspics {
+	width: 25px;
+}
+.socialsAlinkspicslinks {
+	text-decoration: none;
+}
+.CampaignPics {
+	width: 100px;
+	margin-top: 4px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -206,6 +253,22 @@ html {
 		display: none;
 		/*hides dropdown in collapsed navbar */
 	}
+	/*newsletter*/
+	#newsletter {
+		margin-bottom: 100px;
+		text-align: center;
+		background-color: #edf3e8;
+		padding: 50px;
+	}
+	#indexForm {
+		text-align: left;
+	
+	}
+	#formSumbitButton {
+		background-color: #916c4d !important;
+		padding: 10px 40px 10px 20px;
+	}
+	
 }
 
 @media only screen and (max-width: 600px) {

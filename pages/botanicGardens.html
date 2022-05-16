@@ -27,9 +27,11 @@
 
   <body>
     <!-- Navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <form class="d-flex" id="searchHide">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-5 py-2">
+      <div
+        class="container-fluid justicy-content-space-between search-container"
+      >
+        <form class="d-flex flex-row" id="searchHide">
           <input
             class="form-control me-2"
             type="search"
@@ -40,103 +42,47 @@
         </form>
       </div>
       <a class="navbar-brand" href="/index.html">
-        <img src="/logos/owltransparent.png" alt="" width="38" height="50" />
+        <img class="logo-img" src="/logos/owltransparent.png" alt="logo" />
       </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarScroll"
-        aria-controls="navbarScroll"
-        aria-exp
-        nded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul
-          class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-          style="--bs-scroll-height: 100px"
+      <a class="nav-link" href="../index.html">Home</a>
+      <div class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          data-bs-toggle="dropdown"
+          href="#"
+          role="button"
+          aria-expanded="false"
+          >Parks</a
         >
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item" href="./victoria.html">Victoria Park</a>
           </li>
-          <div id="navbarHide">
-            <li>
-              <a class="dropdown-item" href="/pages/botanicGardens.html"
-                >Botanic Gardens</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="/pages/glasgowGreen.html"
-                >Glasgow Green</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="/pages/kelvinGrove.html"
-                >Kelvin Grove</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="/pages/pollock.html">Pollock</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="/pages/victoria.html">Victoria</a>
-            </li>
-          </div>
-          <div id="dropdownHide">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarScrollingDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Parks
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarScrollingDropdown"
-              >
-                <li>
-                  <a class="dropdown-item" href="/pages/botanicGardens.html"
-                    >Botanic Gardens</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="/pages/glasgowGreen.html"
-                    >Glasgow Green</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="/pages/kelvinGrove.html"
-                    >Kelvin Grove</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="/pages/pollock.html"
-                    >Pollock</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="/pages/victoria.html"
-                    >Victoria</a
-                  >
-                </li>
-                <li></li>
-              </ul>
-            </li>
-          </div>
+          <li>
+            <a class="dropdown-item" href="./pollock.html"
+              >Pollock Country Park</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="./botanicGardens.html"
+              >Botanic Gardens</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="./glasgowGreen.html"
+              >Glasgow Green</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="./kelvinGrove.html">Kelvin Grove</a>
+          </li>
         </ul>
       </div>
     </nav>
     <!-- Navbar end -->
 
     <!-- Carousel Section start -->
-    <section class="carouselSection">
+    <section class="carouselSection container-sm mb-5 px-5">
       <h1 class="title-carousel my-5">Botanic Gardens</h1>
       <div id="parkCarousel" class="carousel slide" data-bs-ride="carousel">
         <!-- carousel Indicators-->
@@ -182,36 +128,36 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="../img/parks/botanicGardens/carousel/kibble-palace.png"
-              class="d-block w-100"
+              src="../img/parks/botanicGardens/carousel/kibble-palace.jpg"
+              class="carousel-img"
               alt="kibble palace"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="../img/parks/botanicGardens/carousel/interior.png"
-              class="d-block w-100"
+              src="../img/parks/botanicGardens/carousel/interior.jpg"
+              class="carousel-img"
               alt="interior"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="../img/parks/botanicGardens/carousel/glasshouse.png"
-              class="d-block w-100"
-              alt="glasshouse"
+              src="../img/parks/botanicGardens/carousel/map.jpg"
+              class="carousel-img"
+              alt="map"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="../img/parks/botanicGardens/carousel/palmHouse.png"
-              class="d-block w-100"
+              src="../img/parks/botanicGardens/carousel/palmHouse.jpg"
+              class="carousel-img"
               alt="palm House"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="../img/parks/botanicGardens/carousel/elfStatue.png"
-              class="d-block w-100"
+              src="../img/parks/botanicGardens/carousel/elfStatue.jpg"
+              class="carousel-img"
               alt="elf Statue"
             />
           </div>
@@ -361,8 +307,8 @@
         </div>
         <div class="right">
           <img
-            class="info-img"
-            src="../img/parks/botanicGardens/round-image/marble-statue-woman.png"
+            class="info-img mt-3"
+            src="../img/parks/botanicGardens/round-image/marble-statue-woman.jpg"
             alt="Botanic Gardens Marble"
           />
         </div>
@@ -371,206 +317,204 @@
     <!-- Information Section end -->
 
     <!-- What's on Section start -->
-    <section class="whatsOn">
-      <div class="container">
-        <h1 class="text-black">What's on</h1>
-
-        <input
-          type="text"
-          id="myInput"
-          class="p-2 my-4"
-          onkeyup="myFunction()"
-          placeholder="Search for activities..."
-          title="Type in a name"
-        />
-
-        <ul id="myUL" class="total-activities">
-          <li class="card">
-            <img
-              class="card-img"
-              src="../img/activities/botanicGardens/bookbinding.png"
-              alt="Bookbinding"
-            />
-            <div class="card-body">
-              <span>Bookbinding</span>
-              <div class="card-title">Bookbinding</div>
-              <div class="card-description">
-                Bookbinding is the process of physically assembling a book...
-              </div>
-              <button type="button" class="btn">More information</button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              class="card-img"
-              src="../img/activities/botanicGardens/Bouquet-Design.png"
-              alt="Bouquet Design"
-            />
-            <div class="card-body">
-              <span>Bouquet Design</span>
-              <div class="card-title">Bouquet Design</div>
-              <div class="card-description">
-                Refers to a type of flower arrangement that contains blooms
-              </div>
-              <button type="button" class="btn">More information</button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              class="card-img"
-              src="../img/activities/botanicGardens/cinema.png"
-              alt="Outdoor cinema"
-            />
-            <div class="card-body">
-              <span>Cinema outdoor</span>
-              <div class="card-title">Cinema</div>
-              <div class="card-description">
-                Enjoy our programming on summer nights...
-              </div>
-              <button type="button" class="btn">More information</button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              class="card-img"
-              src="../img/activities/botanicGardens/garden_design.png"
-              alt="garden design"
-            />
-            <div class="card-body">
-              <span>garden design</span>
-              <div class="card-title">Garden Design</div>
-              <div class="card-description">
-                There is nothing as beautiful as an English or cottage garden
-                with our course...
-              </div>
-              <button type="button" class="btn">More information</button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              class="card-img"
-              src="../img/activities/botanicGardens/horticulture2.png"
-              alt="Horticulture"
-            />
-            <div class="card-body">
-              <span>horticulture</span>
-              <div class="card-title">Horticulture</div>
-              <div class="card-description">
-                You will be fascinated the art or practice of garden cultivation
-                and management...
-              </div>
-              <button type="button" class="btn">More information</button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              class="card-img"
-              src="../img/activities/botanicGardens/natural_perfume_aromatherapy.png"
-              alt="natural perfume aromatherapy"
-            />
-            <div class="card-body">
-              <span>Aromatherapy</span>
-              <div class="card-title">Aromatherapy</div>
-              <div class="card-description">
-                create your own natural perfumes in our course...
-              </div>
-              <button type="button" class="btn">More information</button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              class="card-img"
-              src="../img/activities/botanicGardens/paint_breathe_meditate.png"
-              alt="paint breathe meditate"
-            />
-            <div class="card-body">
-              <span>Paint Breathe Meditate</span>
-              <div class="card-title">Paint Breathe Meditate</div>
-              <div class="card-description">
-                Relax painting and breathing with nature
-              </div>
-              <button type="button" class="btn">More information</button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              class="card-img"
-              src="../img/activities/botanicGardens/print-leaves.png"
-              alt="print leaves"
-            />
-            <div class="card-body">
-              <span>print leaves</span>
-              <div class="card-title">Print Leaves</div>
-              <div class="card-description">
-                Create beautiful prints using leaves...
-              </div>
-              <button type="button" class="btn">More information</button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              class="card-img"
-              src="../img/activities/botanicGardens/running.png"
-              alt="running"
-            />
-            <div class="card-body">
-              <span>running</span>
-              <div class="card-title">Running</div>
-              <div class="card-description">
-                Exercise and join our running group every Saturday...
-              </div>
-              <button type="button" class="btn">More information</button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              class="card-img"
-              src="../img/activities/botanicGardens/storyteller.png"
-              alt="storyteller"
-            />
-            <div class="card-body">
-              <span>storyteller</span>
-              <div class="card-title">Storyteller</div>
-              <div class="card-description">
-                Your children will have fun on weekends with our storytellers...
-              </div>
-              <button type="button" class="btn">More information</button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              class="card-img"
-              src="../img/activities/botanicGardens/teaRoom.png"
-              alt="Tea Room"
-            />
-            <div class="card-body">
-              <span>Tea Room</span>
-              <div class="card-title">Tea Room</div>
-              <div class="card-description">
-                Enjoy our breakfasts and our magnificent brunches...
-              </div>
-              <button type="button" class="btn-add-baileys btn">
-                More information
-              </button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              class="card-img"
-              src="../img/activities/botanicGardens/yoga.png"
-              alt="yoga"
-            />
-            <div class="card-body">
-              <span>yoga</span>
-              <div class="card-title">Yoga</div>
-              <div class="card-description">
-                practice yoga with us while you relax your mind enjoying the
-                wonderful views of...
-              </div>
-              <button type="button" class="btn">More information</button>
-            </div>
-          </li>
-        </ul>
+    <section class="whatsOn container-sm pb-5 px-5">
+      <h1 class="mb-4">What's on</h1>
+      <div class="total-activities">
+        <div class="card">
+          <img
+            class="card-img"
+            src="../img/activities/botanicGardens/bookbinding.png"
+            alt="Bookbinding"
+          />
+          <div class="card-body">
+            <h4 class="card-title mb-3">Bookbinding</h4>
+            <p class="card-description">
+              Bookbinding is the process of physically assembling a book...
+            </p>
+            <button type="button" class="btn btn-primary">
+              More information
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="../img/activities/botanicGardens/Bouquet-Design.png"
+            alt="Bouquet Design"
+          />
+          <div class="card-body">
+            <h4 class="card-title mb-3">Bouquet Design</h4>
+            <p class="card-description">
+              Refers to a type of flower arrangement that contains blooms
+            </p>
+            <button type="button" class="btn btn-primary">
+              More information
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="../img/activities/botanicGardens/cinema.png"
+            alt="Outdoor cinema"
+          />
+          <div class="card-body">
+            <h4 class="card-title mb-3">Cinema</h4>
+            <p class="card-description">
+              Enjoy our programming on summer nights...
+            </p>
+            <button type="button" class="btn btn-primary">
+              More information
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="../img/activities/botanicGardens/garden_design.png"
+            alt="garden design"
+          />
+          <div class="card-body">
+            <h4 class="card-title mb-3">Garden Design</h4>
+            <p class="card-description">
+              There is nothing as beautiful as an English or cottage garden with
+              our course...
+            </p>
+            <button type="button" class="btn btn-primary">
+              More information
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="../img/activities/botanicGardens/horticulture2.png"
+            alt="Horticulture"
+          />
+          <div class="card-body">
+            <h4 class="card-title mb-3">Horticulture</h4>
+            <p class="card-description">
+              You will be fascinated the art or practice of garden cultivation
+              and management...
+            </p>
+            <button type="button" class="btn btn-primary">
+              More information
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="../img/activities/botanicGardens/natural_perfume_aromatherapy.png"
+            alt="natural perfume aromatherapy"
+          />
+          <div class="card-body">
+            <h4 class="card-title mb-3">Aromatherapy</h4>
+            <p class="card-description">
+              create your own natural perfumes in our course...
+            </p>
+            <button type="button" class="btn btn-primary">
+              More information
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="../img/activities/botanicGardens/paint_breathe_meditate.png"
+            alt="paint breathe meditate"
+          />
+          <div class="card-body">
+            <h4 class="card-title mb-3">Paint Breathe Meditate</h4>
+            <p class="card-description">
+              Relax painting and breathing with nature
+            </p>
+            <button type="button" class="btn btn-primary">
+              More information
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="../img/activities/botanicGardens/print-leaves.png"
+            alt="print leaves"
+          />
+          <div class="card-body">
+            <h4 class="card-title mb-3">Print Leaves</h4>
+            <p class="card-description">
+              Create beautiful prints using leaves...
+            </p>
+            <button type="button" class="btn btn-primary">
+              More information
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="../img/activities/botanicGardens/running.png"
+            alt="running"
+          />
+          <div class="card-body">
+            <h4 class="card-title mb-3">Running</h4>
+            <p class="card-description">
+              Exercise and join our running group every Saturday...
+            </p>
+            <button type="button" class="btn btn-primary">
+              More information
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="../img/activities/botanicGardens/storyteller.png"
+            alt="storyteller"
+          />
+          <div class="card-body">
+            <h4 class="card-title mb-3">Storyteller</h4>
+            <p class="card-description">
+              Your children will have fun on weekends with our storytellers...
+            </p>
+            <button type="button" class="btn btn-primary">
+              More information
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="../img/activities/botanicGardens/teaRoom.png"
+            alt="Tea Room"
+          />
+          <div class="card-body">
+            <h4 class="card-title mb-3">Tea Room</h4>
+            <p class="card-description">
+              Enjoy our breakfasts and our magnificent brunches...
+            </p>
+            <button type="button" class="btn btn-primary">
+              More information
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="../img/activities/botanicGardens/yoga.png"
+            alt="yoga"
+          />
+          <div class="card-body">
+            <h4 class="card-title mb-3">Yoga</h4>
+            <p class="card-description">
+              practice yoga with us while you relax your mind enjoying the
+              wonderful views of...
+            </p>
+            <button type="button" class="btn btn-primary">
+              More information
+            </button>
+          </div>
+        </div>
       </div>
     </section>
     <!-- What's on Section end -->
@@ -603,9 +547,7 @@
         </div>
         <div class="form-group mb-4">
           <input class="checkbox mx-3" type="checkbox" name="checkbox" />
-          <label for="checkbox"
-            >I have read and agree the the privicy policy</label
-          >
+          <label>I have read and agree the the privicy policy</label>
         </div>
         <button class="btn btn-secondary">Submit</button>
       </form>

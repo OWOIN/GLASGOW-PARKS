@@ -25,9 +25,11 @@
 
   <body>
     <!-- Navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <form class="d-flex" id="searchHide">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-5 py-2">
+      <div
+        class="container-fluid justicy-content-space-between search-container"
+      >
+        <form class="d-flex flex-row" id="searchHide">
           <input
             class="form-control me-2"
             type="search"
@@ -38,109 +40,48 @@
         </form>
       </div>
       <a class="navbar-brand" href="/index.html">
-        <img src="/logos/owltransparent.png" alt="" width="38" height="50" />
+        <img class="logo-img" src="/logos/owltransparent.png" alt="logo" />
       </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarScroll"
-        aria-controls="navbarScroll"
-        aria-exp
-        nded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul
-          class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-          style="--bs-scroll-height: 100px"
+      <a class="nav-link" href="../index.html">Home</a>
+      <div class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          data-bs-toggle="dropdown"
+          href="#"
+          role="button"
+          aria-expanded="false"
+          >Parks</a
         >
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item" href="./victoria.html">Victoria Park</a>
           </li>
-          <div id="navbarHide">
-            <li>
-              <a class="dropdown-item" href="/pages/botanicGardens.html"
-                >Botanic Gardens</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="/pages/glasgowGreen.html"
-                >Glasgow Green</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="/pages/kelvinGrove.html"
-                >Kelvin Grove</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="/pages/pollock.html">Pollock</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="/pages/victoria.html">Victoria</a>
-            </li>
-          </div>
-          <div id="dropdownHide">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarScrollingDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Parks
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarScrollingDropdown"
-              >
-                <li>
-                  <a class="dropdown-item" href="/pages/botanicGardens.html"
-                    >Botanic Gardens</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="/pages/glasgowGreen.html"
-                    >Glasgow Green</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="/pages/kelvinGrove.html"
-                    >Kelvin Grove</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="/pages/pollock.html"
-                    >Pollock</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="/pages/victoria.html"
-                    >Victoria</a
-                  >
-                </li>
-                <li></li>
-              </ul>
-            </li>
-          </div>
+          <li>
+            <a class="dropdown-item" href="./pollock.html"
+              >Pollock Country Park</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="./botanicGardens.html"
+              >Botanic Gardens</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="./glasgowGreen.html"
+              >Glasgow Green</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="./kelvinGrove.html">Kelvin Grove</a>
+          </li>
         </ul>
       </div>
     </nav>
     <!-- Navbar end -->
 
     <!-- Carousel Section start -->
-    <section class="carouselSection">
+    <section class="carouselSection container-sm mb-5 px-5">
       <h1 class="title-carousel my-5">Pollock Country Park</h1>
-      <img
-        src="../img/parks/pollock/carousel/pollock_trail_autumn.jpeg"
-        alt="/pollock nature signs"
-        class="carousel-mobile"
-      />
       <div id="parkCarousel" class="carousel slide" data-bs-ride="carousel">
         <!-- carousel Indicators-->
         <div class="carousel-indicators">
@@ -185,36 +126,36 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="../img/parks/pollock/carousel/pollock_trail.jpeg"
-              class="d-block w-100"
-              alt="/pollock trail"
+              src="../img/parks/pollock/carousel/pollock_nature_signs.jpeg"
+              class="carousel-img"
+              alt="nature signs"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="../img/parks/pollock/carousel/pollock_nature_signs.jpeg"
-              class="d-block w-100"
-              alt="pollock nature signs"
+              src="../img/parks/pollock/carousel/pollock_trail.jpeg"
+              class="carousel-img"
+              alt="nature trail"
             />
           </div>
           <div class="carousel-item">
             <img
               src="../img/parks/pollock/carousel/pollock_trail_autumn.jpeg"
-              class="d-block w-100"
-              alt="pollock trail autumn"
+              class="carousel-img"
+              alt="autumn nature trail"
             />
           </div>
           <div class="carousel-item">
             <img
               src="../img/parks/pollock/carousel/pollok_manor.jpeg"
-              class="d-block w-100"
-              alt="pollok manor"
+              class="carousel-img"
+              alt="pollock manor"
             />
           </div>
           <div class="carousel-item">
             <img
               src="../img/parks/pollock/carousel/stable_courtyard.jpg"
-              class="d-block w-100"
+              class="carousel-img"
               alt="stable courtyard"
             />
           </div>
@@ -245,7 +186,7 @@
 
     <!-- Information Section -->
     <section class="container-sm px-5 py-5">
-      <h3 class="display-6">Pollock Country Park</h3>
+      <h3 class="display-6 pb-3">Pollock Country Park</h3>
       <div class="info-grid">
         <div class="left">
           <p class="discover-text my-3">
@@ -354,7 +295,7 @@
         <div class="right">
           <img
             class="info-img"
-            src="../img/parks/pollock/carousel/pollok_manor.jpeg"
+            src="../img/parks/pollock/round-image/pollok_manor.jpg"
             alt="Victoria Park"
           />
         </div>
@@ -363,95 +304,92 @@
     <!-- Information Section End -->
 
     <!-- What's on-Activities Section start -->
-    <section class="whatsOn">
-      <div class="container-activities">
-        <h1 class="text-black">What's on</h1>
-
-        <input
-          type="text"
-          id="myInput"
-          onkeyup="myFunction()"
-          placeholder="Search for activities..."
-          title="Type in a name"
-        />
-
-        <ul id="myUL" class="total-activities">
-          <li class="card">
-            <img
-              class="card-img"
-              src="../img/activities/pollock/orienteering.jpg"
-              alt="Orienteering"
-            />
-            <div class="card-body">
-              <span>Orienteering</span>
-              <div class="card-title">Orienteering</div>
-              <div class="card-description">
-                A course that the whole family can enjoy. We lend the...
-              </div>
-              <button type="button" class="btn-card">More information</button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              class="card-img"
-              src="../img/activities/pollock/playground.jpg"
-              alt="playground"
-            />
-            <div class="card-body">
-              <span>Play Areas</span>
-              <div class="card-title">Play Areas</div>
-              <div class="card-description">
-                Our park has a great playground for the little ones....
-              </div>
-              <button type="button" class="btn-card">More information</button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              class="card-img"
-              src="../img/activities/pollock/stable_courtyard.jpg"
-              alt="stable courtyard"
-            />
-            <div class="card-body">
-              <span>Stable Courtyard</span>
-              <div class="card-title">stable courtyard</div>
-              <div class="card-description">
-                Our old Stable Courtyard and Sawmill preserved...
-              </div>
-              <button type="button" class="btn-card">More information</button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              class="card-img"
-              src="../img/activities/pollock/walled_garden.jpg"
-              alt="Walled Garden"
-            />
-            <div class="card-body">
-              <span>Walled Garden</span>
-              <div class="card-title">Walled Garden</div>
-              <div class="card-description">
-                Our walled gardens will allow you to enjoy a magnificent...
-              </div>
-              <button type="button" class="btn-card">More information</button>
-            </div>
-          </li>
-          <li class="card">
-            <img
-              class="card-img"
-              src="../img/activities/pollock/woodland_walks.jpg"
-              alt="Woodland Walks"
-            />
-            <div class="card-body">
-              <span>Woodland Walks</span>
-              <div class="card-title">Woodland Walks</div>
-              <div class="card-description">
-                In our forest you can enjoy nature with the family...
-              </div>
-              <button type="button" class="btn-card">More information</button>
-            </div>
-          </li>
-        </ul>
+    <section class="whatsOn container-sm pb-5 px-5">
+      <h1 class="mb-4">What's on</h1>
+      <div class="total-activities">
+        <div class="card">
+          <img
+            class="card-img"
+            src="../img/activities/pollock/orienteering.jpg"
+            alt="compass"
+          />
+          <div class="card-body">
+            <h4 class="card-title mb-3">Orienteering</h4>
+            <p class="card-description">
+              Orienteering classes are available through the summer months.
+            </p>
+            <button type="button" class="btn btn-primary">
+              More information
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="../img/activities/pollock/playground.jpg"
+            alt="playground"
+          />
+          <div class="card-body">
+            <h4 class="card-title mb-3">Childrens Playparks</h4>
+            <p class="card-description">
+              The children's playpark is open year round and very popular.
+            </p>
+            <button type="button" class="btn btn-primary">
+              More information
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="../img/activities/pollock/stable_courtyard.jpg"
+            alt="stable courtyard"
+          />
+          <div class="card-body">
+            <h4 class="card-title mb-3">Stable Courtyard</h4>
+            <p class="card-description">
+              The old stable courtyard is a hot spot for historians and a
+              tourists.
+            </p>
+            <button type="button" class="btn btn-primary">
+              More information
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="../img/activities/pollock/walled_garden.jpg"
+            alt="walled gardens"
+          />
+          <div class="card-body">
+            <h4 class="card-title mb-3">Walled Gardens</h4>
+            <p class="card-description">
+              Our stunning walled gardens are loved my all and a great stop for
+              photographs.
+            </p>
+            <button type="button" class="btn btn-primary">
+              More information
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="../img/activities/pollock/woodland_walks.jpg"
+            alt="woodland path"
+          />
+          <div class="card-body">
+            <h4 class="card-title mb-3">Woodland Walks</h4>
+            <p class="card-description">
+              Our woodland paths are a great way to get lost in nature for an
+              hour or two.
+            </p>
+            <button type="button" class="btn btn-primary">
+              More information
+            </button>
+          </div>
+        </div>
       </div>
     </section>
     <!-- What's on-Activities Section end -->
@@ -484,9 +422,7 @@
         </div>
         <div class="form-group mb-4">
           <input class="checkbox mx-3" type="checkbox" name="checkbox" />
-          <label for="checkbox"
-            >I have read and agree the the privicy policy</label
-          >
+          <label>I have read and agree the the privicy policy</label>
         </div>
         <button class="btn btn-secondary">Submit</button>
       </form>

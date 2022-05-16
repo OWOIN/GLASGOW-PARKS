@@ -1,29 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta
-      name="author"
-      content="Arjun Sanghera, Daryl Stensland, Owen Taylor, Isabel Tizon Arranz"
-    />
-    <meta name="description" content="Great Weekend in Glasgow Web" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Great Weekend in Glasgow</title>
+  <meta name="author" content="Arjun Sanghera, Daryl Stensland, Owen Taylor, Isabel Tizon Arranz" />
+  <meta name="description" content="Great Weekend in Glasgow Web" />
 
-    <!-- Links Bs css -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
+  <title>Botanic Gardens</title>
 
-    <!-- External styles -->
-    <link href="../css/parks.css" rel="stylesheet" />
-  </head>
+  <!-- Links Bs css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
   <body>
     <!-- Navbar start -->
@@ -96,33 +86,14 @@
             aria-label="Slide 1"
           ></button>
 
-          <button
-            type="button"
-            data-bs-target="#parkCarousel"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
 
-          <button
-            type="button"
-            data-bs-target="#parkCarousel"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
+        <button type="button" data-bs-target="#parkCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
 
-          <button
-            type="button"
-            data-bs-target="#parkCarousel"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#parkCarousel"
-            data-bs-slide-to="4"
-            aria-label="Slide 5"
-          ></button>
-        </div>
+        <button type="button" data-bs-target="#parkCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+        <button type="button" data-bs-target="#parkCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#parkCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
 
         <!-- carousel Items -->
         <div class="carousel-inner">
@@ -161,146 +132,107 @@
               alt="elf Statue"
             />
           </div>
+
         </div>
-
-        <!-- carousel Control -->
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#parkCarousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#parkCarousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </section>
-    <!-- Carousel Section end -->
 
-    <!-- Information Section start -->
-    <section class="container-sm px-5 py-5">
-      <h3 class="display-6">Information</h3>
-      <div class="info-grid">
-        <div class="left">
-          <p class="discover-text my-3">
-            The Botanic Gardens are a 15 hectare public garden dating back to
-            the Victorian era. They are members of Botanic Gardens Conservation
-            International (BGCI) and have educational affiliations as they have
-            an extensive collection of plants, including up to 12,000 taxo.
-            Among its collections, three stand out: the orchids, tree ferns and
-            begonias.
-          </p>
-          <p>
-            It is important also to mention its architecture because the
-            botanical garden is made up of several greenhouses, it is worth
-            mentioning Palm House and the Kibble Palace where we find a
-            collection of marble statues. In the past there was a railway
-            station which is no longer in use, although it has been used for
-            filming.
-          </p>
+      <!-- carousel Control -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#parkCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#parkCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- Carousel Section end -->
 
-          <div class="accordion accordion pt-4" id="parkAccordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne"
-                  aria-expanded="false"
-                  aria-controls="collapseOne"
-                >
-                  Location & Transport
-                </button>
-              </h2>
-              <div
-                id="collapseOne"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingOne"
-                data-bs-parent="#parkAccordion"
-              >
-                <div class="accordion-body">
-                  <ul>
-                    <li class="info-li">
-                      Location: 730 Great Western Road, Glasgow, G12 0UE
-                    </li>
-                    <li class="info-li">
-                      Transport: Easy access from Saltoun Street bus stop or a 7
-                      minute walk from Hillhead subway station
-                    </li>
-                  </ul>
-                </div>
+  <!-- Information Section start -->
+  <section class="container-sm px-5 py-5">
+    <h3 class="display-6">Information</h3>
+    <div class="info-grid">
+      <div class="left">
+        <p class="discover-text my-3">
+          The Botanic Gardens are a 15 hectare public garden dating back to
+          the Victorian era. They are members of Botanic Gardens Conservation
+          International (BGCI) and have educational affiliations as they have
+          an extensive collection of plants, including up to 12,000 taxo.
+          Among its collections, three stand out: the orchids, tree ferns and
+          begonias.
+        </p>
+        <p>
+          It is important also to mention its architecture because the
+          botanical garden is made up of several greenhouses, it is worth
+          mentioning Palm House and the Kibble Palace where we find a
+          collection of marble statues. In the past there was a railway
+          station which is no longer in use, although it has been used for
+          filming.
+        </p>
+
+        <div class="accordion accordion pt-4" id="parkAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Location & Transport
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+              data-bs-parent="#parkAccordion">
+              <div class="accordion-body">
+                <ul>
+                  <li class="info-li">
+                    Location: 730 Great Western Road, Glasgow, G12 0UE
+                  </li>
+                  <li class="info-li">
+                    Transport: Easy access from Saltoun Street bus stop or a 7
+                    minute walk from Hillhead subway station
+                  </li>
+                </ul>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo"
-                >
-                  Opening Hours
-                </button>
-              </h2>
-              <div
-                id="collapseTwo"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingTwo"
-                data-bs-parent="#parkAccordion"
-              >
-                <div class="accordion-body">
-                  <p>
-                    Monday - Sunday: Open from 11am to 5pm: last entry at
-                    4.30pm. The Gardens are locked after this time.
-                  </p>
-                </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Opening Hours
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#parkAccordion">
+              <div class="accordion-body">
+                <p>
+                  Monday - Sunday: Open from 11am to 5pm: last entry at
+                  4.30pm. The Gardens are locked after this time.
+                </p>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree"
-                  aria-expanded="false"
-                  aria-controls="collapseThree"
-                >
-                  History
-                </button>
-              </h2>
-              <div
-                id="collapseThree"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingThree"
-                data-bs-parent="#parkAccordion"
-              >
-                <div class="accordion-body">
-                  <p>
-                    In 1704 the University of Glasgow had botanical gardens
-                    which disappeared due to pollution.
-                  </p>
-                  <p>
-                    In 1817 a group of businessmen led by Thomas Hopkirk funded
-                    a new botanical institution which was established at
-                    Sandyford, appointing the first Regius Professor of Botany,
-                    Dr Robert Graham, in 1818. Hopkirk was responsible for its
-                    growth and maintenance for 20 years until he moved to London
-                    in 1941 as director of the Royal Botanic Gardens, Kew.
-                  </p>
-                </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                History
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#parkAccordion">
+              <div class="accordion-body">
+                <p>
+                  In 1704 the University of Glasgow had botanical gardens
+                  which disappeared due to pollution.
+                </p>
+                <p>
+                  In 1817 a group of businessmen led by Thomas Hopkirk funded
+                  a new botanical institution which was established at
+                  Sandyford, appointing the first Regius Professor of Botany,
+                  Dr Robert Graham, in 1818. Hopkirk was responsible for its
+                  growth and maintenance for 20 years until he moved to London
+                  in 1941 as director of the Royal Botanic Gardens, Kew.
+                </p>
               </div>
             </div>
           </div>
@@ -312,9 +244,8 @@
             alt="Botanic Gardens Marble"
           />
         </div>
-      </div>
-    </section>
-    <!-- Information Section end -->
+  </section>
+  <!-- Information Section end -->
 
     <!-- What's on Section start -->
     <section class="whatsOn container-sm pb-5 px-5">
@@ -554,42 +485,41 @@
     </section>
     <!-- Newsletter Ends -->
 
-    <!-- Footer start -->
+  <!-- Footer start -->
 
-    <footer class="footer">
-      <div class="container-footer">
-        Arjun Sanghera &#8226; Daryl Stensland &#8226; Owen Taylor &#8226;
-        Isabel Tizon Arranz
-      </div>
-    </footer>
-    <!-- Footer end -->
+  <footer class="footer">
+    <div class="container-footer">
+      Arjun Sanghera &#8226; Daryl Stensland &#8226; Owen Taylor &#8226;
+      Isabel Tizon Arranz
+    </div>
+  </footer>
+  <!-- Footer end -->
 
-    <script>
-      function myFunction() {
-        var input, filter, ul, li, span, i, txtValue;
-        input = document.getElementById('myInput');
-        filter = input.value.toUpperCase();
+  <script>
+    function myFunction() {
+      var input, filter, ul, li, span, i, txtValue;
+      input = document.getElementById('myInput');
+      filter = input.value.toUpperCase();
 
-        ul = document.getElementById('myUL');
-        li = ul.getElementsByTagName('li');
+      ul = document.getElementById('myUL');
+      li = ul.getElementsByTagName('li');
 
-        for (i = 0; i < li.length; i++) {
-          span = li[i].getElementsByTagName('span')[0];
-          txtValue = span.textContent || span.innerText;
-          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = '';
-          } else {
-            li[i].style.display = 'none';
-          }
+      for (i = 0; i < li.length; i++) {
+        span = li[i].getElementsByTagName('span')[0];
+        txtValue = span.textContent || span.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = '';
+        } else {
+          li[i].style.display = 'none';
         }
       }
-    </script>
+    }
+  </script>
 
-    <!-- Bs Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- Bs Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

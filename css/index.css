@@ -127,24 +127,46 @@ body {
 
 /* Where to go Section end */
 
-/*newsletter*/
-#newsletter {
-	margin-bottom: 100px;
-	text-align: center;
-	background-color: #edf3e8;
-	padding: 100px;
-}
-#indexForm {
-	text-align: left;
+/* Newsletter Styles */
+.newsletter {
+	background-color: rgb(228, 237, 222);
+	padding: 0 10%;
+	margin-bottom: 50px;
+}	
 
-}
-#formSumbitButton {
-	background-color: #916c4d !important;
-	padding: 10px 40px 10px 20px;
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-/*newsletter end*/
+.form-group {
+	display: flex;
+	align-items: center;
+	width: 70%;
+	
+}
 
+.form-control {
+	border: 1px solid #000;
+}
+
+.checkbox {
+	width: 20px;
+	height: 20px;
+}
+
+.btn-secondary {
+	background-color: #5e493b !important;
+	border: solid 1px #5e493b;
+}
+
+.btn-secondary:hover {
+	background-color: #3f3127 !important;
+	border: solid 1px #3f3127;
+}
+
+/* Newsletter end */
 
 /* Footer start */
 html {
@@ -207,9 +229,6 @@ html {
 @media only screen and (max-width: 1200px) {
 	.grid {
 		grid-template-columns: repeat(3, 1fr);
-	}
-	.parkCard{
-		/* min-height: 400px; */
 	}
 	#heading-primary {
 		font-size: 60px;

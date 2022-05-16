@@ -25,11 +25,9 @@
 
   <body>
     <!-- Navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light px-5 py-2">
-      <div
-        class="container-fluid justicy-content-space-between search-container"
-      >
-        <form class="d-flex flex-row" id="searchHide">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <form class="d-flex" id="searchHide">
           <input
             class="form-control me-2"
             type="search"
@@ -40,48 +38,109 @@
         </form>
       </div>
       <a class="navbar-brand" href="/index.html">
-        <img class="logo-img" src="/logos/owltransparent.png" alt="logo" />
+        <img src="/logos/owltransparent.png" alt="" width="38" height="50" />
       </a>
-      <a class="nav-link" href="../index.html">Home</a>
-      <div class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle"
-          data-bs-toggle="dropdown"
-          href="#"
-          role="button"
-          aria-expanded="false"
-          >Parks</a
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll"
+        aria-exp
+        nded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul
+          class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+          style="--bs-scroll-height: 100px"
         >
-        <ul class="dropdown-menu">
-          <li>
-            <a class="dropdown-item" href="./victoria.html">Victoria Park</a>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/index.html">Home</a>
           </li>
-          <li>
-            <a class="dropdown-item" href="./pollock.html"
-              >Pollock Country Park</a
-            >
-          </li>
-          <li>
-            <a class="dropdown-item" href="./botanicGardens.html"
-              >Botanic Gardens</a
-            >
-          </li>
-          <li>
-            <a class="dropdown-item" href="./glasgowGreen.html"
-              >Glasgow Green</a
-            >
-          </li>
-          <li>
-            <a class="dropdown-item" href="./kelvinGrove.html">Kelvin Grove</a>
-          </li>
+          <div id="navbarHide">
+            <li>
+              <a class="dropdown-item" href="/pages/botanicGardens.html"
+                >Botanic Gardens</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/pages/glasgowGreen.html"
+                >Glasgow Green</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/pages/kelvinGrove.html"
+                >Kelvin Grove</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/pages/pollock.html">Pollock</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="/pages/victoria.html">Victoria</a>
+            </li>
+          </div>
+          <div id="dropdownHide">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarScrollingDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Parks
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown"
+              >
+                <li>
+                  <a class="dropdown-item" href="/pages/botanicGardens.html"
+                    >Botanic Gardens</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/pages/glasgowGreen.html"
+                    >Glasgow Green</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/pages/kelvinGrove.html"
+                    >Kelvin Grove</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/pages/pollock.html"
+                    >Pollock</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/pages/victoria.html"
+                    >Victoria</a
+                  >
+                </li>
+                <li></li>
+              </ul>
+            </li>
+          </div>
         </ul>
       </div>
     </nav>
     <!-- Navbar end -->
 
     <!-- Carousel Section start -->
-    <section class="carouselSection container-sm mb-5 px-5">
+    <section class="carouselSection">
       <h1 class="title-carousel my-5">Victoria Park</h1>
+      <img
+        src="../img/parks/pollock/carousel/pollock_trail_autumn.jpeg"
+        alt="/pollock nature signs"
+        class="carousel-mobile"
+      />
       <div id="parkCarousel" class="carousel slide" data-bs-ride="carousel">
         <!-- carousel Indicators-->
         <div class="carousel-indicators">
@@ -126,37 +185,37 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="../img/parks/victoria/carousel/bowling_green.jpg"
-              class="carousel-img"
-              alt="bowling green"
+              src="../img/parks/victoria/carousel/victoria_park_trees.jpeg"
+              class="d-block w-100"
+              alt="pollok manor"
             />
           </div>
           <div class="carousel-item">
             <img
               src="../img/parks/victoria/carousel/victoria_park.jpeg"
-              class="carousel-img"
-              alt="victoria park"
+              class="d-block w-100"
+              alt="pollock nature signs"
             />
           </div>
           <div class="carousel-item">
             <img
               src="../img/parks/victoria/carousel/victoria_park_gates.jpeg"
-              class="carousel-img"
-              alt="victoria park gates"
+              class="d-block w-100"
+              alt="pollock trail autumn"
             />
           </div>
           <div class="carousel-item">
             <img
               src="../img/parks/victoria/carousel/victoria_park_statue.jpeg"
-              class="carousel-img"
-              alt="statue"
+              class="d-block w-100"
+              alt="/pollock trail"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="../img/parks/victoria/carousel/victoria_park_trees.jpeg"
-              class="carousel-img"
-              alt="park foliage"
+              src="../img/parks/victoria/carousel/bowling_green.jpg"
+              class="d-block w-100"
+              alt="stable courtyard"
             />
           </div>
         </div>
@@ -308,108 +367,110 @@
     <!-- Information Section End -->
 
     <!-- What's on-Activities Section start -->
-    <section class="whatsOn container-sm pb-5 px-5">
-      <h1 class="mb-4">What's on</h1>
-      <div class="total-activities">
-        <div class="card">
-          <img
-            class="card-img"
-            src="../img/activities/victoria/bowling_green.jpg"
-            alt="Bowling Greens"
-          />
-          <div class="card-body">
-            <h4 class="card-title mb-3">Bowling Greens</h4>
-            <p class="card-description">
-              Bowling greens are available for hire! A perfect way to spend a
-              sunny day.
-            </p>
-            <button type="button" class="btn btn-primary">
-              More information
-            </button>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            class="card-img"
-            src="../img/activities/victoria/model_yachting_pond.jpg"
-            alt="Model Yaucht Pond"
-          />
-          <div class="card-body">
-            <h4 class="card-title mb-3">Model Yachting Pond</h4>
-            <p class="card-description">
-              Model Yauchting Pond, with seasonal competitions, offer a great
-              day out.
-            </p>
-            <button type="button" class="btn btn-primary">
-              More information
-            </button>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            class="card-img"
-            src="../img/activities/victoria/orienteering.jpg"
-            alt="Compass"
-          />
-          <div class="card-body">
-            <h4 class="card-title mb-3">Orienteering Cources</h4>
-            <p class="card-description">
-              Orienteering classes are available through part of the year, and
-              are loved by kids.
-            </p>
-            <button type="button" class="btn btn-primary">
-              More information
-            </button>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            class="card-img"
-            src="../img/activities/victoria/playground.jpg"
-            alt="playground"
-          />
-          <div class="card-body">
-            <h4 class="card-title mb-3">Children's Playparks</h4>
-            <p class="card-description">
-              Multiple children's playpark's are situated throughtout the park.
-            </p>
-            <button type="button" class="btn btn-primary">
-              More information
-            </button>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            class="card-img"
-            src="../img/activities/victoria/tennis.jpg"
-            alt="tennis court"
-          />
-          <div class="card-body">
-            <h4 class="card-title mb-3">Tennis Courts</h4>
-            <p class="card-description">
-              Tennis courts are available for hire throughout the year.
-            </p>
-            <button type="button" class="btn btn-primary">
-              More information
-            </button>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            class="card-img"
-            src="../img/activities/victoria/wedding.jpg"
-            alt="natural perfume aromatherapy"
-          />
-          <div class="card-body">
-            <h4 class="card-title mb-3">Wedding Photography</h4>
-            <p class="card-description">
-              The park is often used for beautiful newlywed photoshoots.
-            </p>
-            <button type="button" class="btn btn-primary">
-              More information
-            </button>
-          </div>
-        </div>
+    <section class="whatsOn">
+      <div class="container-activities">
+        <h1 class="text-black">What's on</h1>
+
+        <input
+          type="text"
+          id="myInput"
+          onkeyup="myFunction()"
+          placeholder="Search for activities..."
+          title="Type in a name"
+        />
+
+        <ul id="myUL" class="total-activities">
+          <li class="card">
+            <img
+              class="card-img"
+              src="../img/activities/victoria/orienteering.jpg"
+              alt="Orienteering"
+            />
+            <div class="card-body">
+              <span>Orienteering</span>
+              <div class="card-title">Orienteering</div>
+              <div class="card-description">
+                A course that the whole family can enjoy. We lend the...
+              </div>
+              <button type="button" class="btn-card">More information</button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              class="card-img"
+              src="../img/activities/victoria/model_yachting_pond.jpg"
+              alt="model yachting pond"
+            />
+            <div class="card-body">
+              <span>Yachting Pond</span>
+              <div class="card-title">Yachting Pond</div>
+              <div class="card-description">
+                Be a great captain sailing our beautiful lake, every weekend...
+              </div>
+              <button type="button" class="btn-card">More information</button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              class="card-img"
+              src="../img/activities/victoria/playground.jpg"
+              alt="playground"
+            />
+            <div class="card-body">
+              <span>Play Areas</span>
+              <div class="card-title">Play Areas</div>
+              <div class="card-description">
+                Our park has a great playground for the little ones....
+              </div>
+              <button type="button" class="btn-card">More information</button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              class="card-img"
+              src="../img/activities/victoria/bowling_green.jpg"
+              alt="Bowling Green"
+            />
+            <div class="card-body">
+              <span>Bowling</span>
+              <div class="card-title">Bowling</div>
+              <div class="card-description">
+                Another activity that you can enjoy with your friends and...
+              </div>
+              <button type="button" class="btn-card">More information</button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              class="card-img"
+              src="../img/activities/victoria/tennis.jpg"
+              alt="Tennis"
+            />
+            <div class="card-body">
+              <span>Tennis</span>
+              <div class="card-title">Tennis</div>
+              <div class="card-description">
+                We have tennis courts that open every day, you just..
+              </div>
+              <button type="button" class="btn-card">More information</button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              class="card-img"
+              src="../img/activities/victoria/wedding.jpg"
+              alt="Weddings"
+            />
+            <div class="card-body">
+              <span>Weddings</span>
+              <div class="card-title">Weddings</div>
+              <div class="card-description">
+                The perfect place for your perfect day, our green...
+              </div>
+              <button type="button" class="btn-card">More information</button>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
     <!-- What's on-Activities Section end -->
@@ -442,7 +503,9 @@
         </div>
         <div class="form-group mb-4">
           <input class="checkbox mx-3" type="checkbox" name="checkbox" />
-          <label>I have read and agree the the privicy policy</label>
+          <label for="checkbox"
+            >I have read and agree the the privicy policy</label
+          >
         </div>
         <button class="btn btn-secondary">Submit</button>
       </form>

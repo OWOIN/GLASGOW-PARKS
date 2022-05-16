@@ -1,218 +1,261 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="author"
+      content="Arjun Sanghera, Daryl Stensland, Owen Taylor, Isabel Tizon Arranz"
+    />
+    <meta name="description" content="Great Weekend in Glasgow Web" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Arjun Sanghera, Daryl Stensland, Owen Taylor, Isabel Tizon Arranz" />
-  <meta name="description" content="Great Weekend in Glasgow Web" />
+    <link rel="icon" href="./logos/favicon.jpg" />
 
-  <title>Great Weekend in Glasgow</title>
+    <title>Great Weekend in Glasgow</title>
 
-  <!-- Links Bs css -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- Links Bs css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
 
-  <!-- External styles -->
-  <link href="/css/index.css" rel="stylesheet" />
-  <link href="/css/parks.css" rel="stylesheet" />
+    <!-- External styles -->
+    <link href="/css/index.css" rel="stylesheet" />
+    <link href="/css/parks.css" rel="stylesheet" />
 
-  <!-- Google fonts-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-</head>
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-  <!-- Navbar start -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-    <div class="container-fluid">
-      <form class="d-flex" id="searchHide">
-        <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-5 py-2">
+      <div
+        class="container-fluid justicy-content-space-between search-container"
+      >
+        <form class="d-flex flex-row" id="searchHide">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+      <a class="navbar-brand" href="/index.html">
+        <img src="/logos/owltransparent.png" alt="logo" class="logo-img" />
+      </a>
+      <a class="nav-link" href="../index.html">Home</a>
+      <div class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          data-bs-toggle="dropdown"
+          href="#"
+          role="button"
+          aria-expanded="false"
+          >Parks</a
+        >
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item" href="./victoria.html">Victoria Park</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="./pollock.html"
+              >Pollock Country Park</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="./botanicGardens.html"
+              >Botanic Gardens</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="./glasgowGreen.html"
+              >Glasgow Green</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="./kelvinGrove.html">Kelvin Grove</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Full Screen Section start -->
+    <header>
+      <div class="hero">
+        <div class="container-fluid">
+          <a class="nav-link" href="#scrollspyHeading">
+            <div class="headertext">
+              <h1 id="heading-primary">A Great Weekend In Glasgow</h1>
+            </div>
+          </a>
+          <div id="peopleMakeGlasgow">
+            <img
+              id="peopleMakeGlasgowLogo"
+              src="logos/people-make-glasgow.png"
+              alt="People Make Glasgow"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Full Screen Section end -->
+
+    <!-- Discover the best part of Glasgow Section start -->
+
+    <section
+      class="discover container-sm px-5 py-5 d-flex flex-column justify-content-center align-items-center"
+    >
+      <h2 class="display-5">Discover the best part of Glasgow</h2>
+      <p class="discover-text mt-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat libero
+        recusandae necessitatibus omnis fuga in ex nostrum atque dolorum ipsam!
+        Earum asperiores voluptate adipisci a voluptatibus quod laborum
+        doloremque eaque! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Placeat libero recusandae necessitatibus omnis fuga in ex nostrum
+        atque dolorum ipsam! Earum asperiores voluptate adipisci a voluptatibus
+        quod laborum doloremque eaque!
+      </p>
+      <p class="discover-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat libero
+        recusandae necessitatibus omnis fuga in ex nostrum atque dolorum ipsam!
+        Earum asperiores voluptate adipisci a voluptatibus quod laborum
+        doloremque eaque! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Placeat libero recusandae necessitatibus omnis fuga in ex nostrum
+        atque dolorum ipsam! Earum asperiores voluptate adipisci a voluptatibus
+        quod laborum doloremque eaque!
+      </p>
+    </section>
+    <!-- Discover the best part of Glasgow Section end -->
+
+    <!-- Where to go Section start -->
+    <section class="container-sm px-5 py-5">
+      <h3 class="display-6">Where to go</h3>
+      <div class="grid py-4">
+        <div class="parkCard">
+          <a href="./pages/victoria.html" class="parkCard-link">
+            <img
+              src="./img/parks/victoria/carousel/victoria_park.jpeg"
+              class="parkCard-img-top"
+              alt="Victoria Park"
+            />
+            <div class="parkCard-body">
+              <h5 class="parkCard-title">Victoria Park</h5>
+            </div>
+          </a>
+        </div>
+        <div class="parkCard">
+          <a href="./pages/pollock.html" class="parkCard-link">
+            <img
+              src="./img/parks/pollock/carousel/pollock_trail.jpeg"
+              class="parkCard-img-top"
+              alt="Pollock Country Park"
+            />
+            <div class="parkCard-body">
+              <h5 class="parkCard-title">Pollock Park</h5>
+            </div>
+          </a>
+        </div>
+        <div class="parkCard">
+          <a href="./pages/botanicGardens.html" class="parkCard-link">
+            <img
+              src="./img/parks/botanicGardens/where-to-go/whereToGo.png"
+              class="parkCard-img-top"
+              alt="Botanic Gardens"
+            />
+            <div class="parkCard-body">
+              <h5 class="parkCard-title">Botanic Gardens</h5>
+            </div>
+          </a>
+        </div>
+        <div class="parkCard">
+          <a href="./pages/kelvinGrove.html" class="parkCard-link">
+            <img
+              src="./img/parks/kelvinGrove/winter.jpg"
+              class="parkCard-img-top"
+              alt="Kelvin Grove Park"
+            />
+            <div class="parkCard-body">
+              <h5 class="parkCard-title">Kelvin Grove</h5>
+            </div>
+          </a>
+        </div>
+        <div class="parkCard">
+          <a href="./pages/glasgowGreen.html" class="parkCard-link">
+            <img
+              src="img/parks/glasgowGreen/carousel/GlasgowgreenMonument.png"
+              class="parkCard-img-top"
+              alt="Glasgow Green"
+            />
+            <div class="parkCard-body">
+              <h5 class="parkCard-title">Glasgow Green</h5>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </section>
+    <!-- Where to go Section end -->
+
+    <!-- Newsletter Begins -->
+    <section class="newsletter py-5">
+      <h3 class="display-6 text-center">Newsletter</h3>
+      <p class="py-3">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum sit
+        excepturi, illo voluptatum, porro necessitatibus omnis quis deserunt
+        iusto facilis placeat asperiores. Earum soluta temporibus et fuga
+        eligendi, neque omnis. Porro sapiente ipsam error voluptates, excepturi
+        consectetur nisi fugit, quaerat suscipit repellendus distinctio maxime
+        consequuntur fugiat dolorem provident necessitatibus inventore quia
+        eaque est natus iste, consequatur incidunt ut soluta. Aperiam. Suscipit
+        veniam doloremque expedita, inventore odit numquam alias, voluptatum
+        rerum provident beatae iusto eos placeat, possimus obcaecati? Fugit at,
+        quaerat sint sed eveniet eum laboriosam, voluptates, officia ex nemo ea.
+      </p>
+      <form>
+        <div class="form-group mb-4 w-60">
+          <input type="text" class="form-control" placeholder="Full Name" />
+        </div>
+        <div class="form-group mb-4">
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Email Address"
+          />
+        </div>
+        <div class="form-group mb-4">
+          <input class="checkbox mx-3" type="checkbox" name="checkbox" />
+          <label>I have read and agree the the privicy policy</label>
+        </div>
+        <button class="btn btn-secondary">Submit</button>
       </form>
-    </div>
-    <a class="navbar-brand" href="index.html">
-      <img src="/logos/owltransparent.png" alt="" width="38" height="50">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-      aria-controls="navbarScroll" aria-exp nded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarScroll">
-      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <div id="navbarHide">
-          <li><a class="dropdown-item" href="pages/botanicGardens.html">Botanic Gardens</a></li>
-          <li><a class="dropdown-item" href="pages/glasgowGreen.html">Glasgow Green</a></li>
-          <li><a class="dropdown-item" href="pages/kelvinGrove.html">Kelvin Grove</a></li>
-          <li><a class="dropdown-item" href="pages/pollock.html">Pollock</a></li>
-          <li><a class="dropdown-item" href="pages/victoria.html">Victoria</a></li>
-        </div>
-        <div id="dropdownHide">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Parks
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-              <li><a class="dropdown-item" href="pages/botanicGardens.html">Botanic Gardens</a></li>
-              <li><a class="dropdown-item" href="pages/glasgowGreen.html">Glasgow Green</a></li>
-              <li><a class="dropdown-item" href="pages/kelvinGrove.html">Kelvin Grove</a></li>
-              <li><a class="dropdown-item" href="pages/pollock.html">Pollock</a></li>
-              <li><a class="dropdown-item" href="pages/victoria.html">Victoria</a></li>
-              <li>
-              </li>
-            </ul>
-        </div>
-      </ul>
-    </div>
-    </div>
-    </div>
-  </nav>
-  <!-- Navbar end -->
+    </section>
+    <!-- Newsletter Ends -->
 
-  <!-- Full Screen Section start -->
-  <header>
-    <div class="hero">
-      <div class="container-fluid">
-        <a class="nav-link" href="#scrollspyHeading">
-          <div class="headertext">
-            <h1 id="heading-primary"> A Great Weekend In Glasgow </h1>
-          </div>
-        </a>
-        <div id="peopleMakeGlasgow">
-          <img id="peopleMakeGlasgowLogo" src="logos/people-make-glasgow.png" alt="People Make Glasgow">
-        </div>
+    <!-- Footer start -->
+
+    <footer class="footer">
+      <div class="container-footer">
+        Arjun Sanghera &#8226; Daryl Stensland &#8226; Owen Taylor &#8226; Isabel Tizon Arranz
       </div>
-    </div>
-  </header>
-
-
-  </header>
-  <!-- Full Screen Section end -->
-
-  <!-- Discover the best part of Glasgow Section start -->
-
-  <section class="discover container-sm px-5 py-5 d-flex flex-column justify-content-center align-items-center">
-    <h2 class="display-5">Discover the best part of Glasgow</h2>
-    <p class="discover-text mt-5">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat libero
-      recusandae necessitatibus omnis fuga in ex nostrum atque dolorum ipsam!
-      Earum asperiores voluptate adipisci a voluptatibus quod laborum
-      doloremque eaque! Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Placeat libero recusandae necessitatibus omnis fuga in ex nostrum
-      atque dolorum ipsam! Earum asperiores voluptate adipisci a voluptatibus
-      quod laborum doloremque eaque!
-    </p>
-    <p class="discover-text">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat libero
-      recusandae necessitatibus omnis fuga in ex nostrum atque dolorum ipsam!
-      Earum asperiores voluptate adipisci a voluptatibus quod laborum
-      doloremque eaque! Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Placeat libero recusandae necessitatibus omnis fuga in ex nostrum
-      atque dolorum ipsam! Earum asperiores voluptate adipisci a voluptatibus
-      quod laborum doloremque eaque!
-    </p>
-
-  </section>
-  <!-- Discover the best part of Glasgow Section end -->
-
-  <!-- Where to go Section start -->
-
-  <section class="container-sm px-5 py-5">
-    <h3 class="display-6">Where to go</h3>
-    <div class="grid py-4">
-      <div class="parkCard">
-        <a href="./pages/botanicGardens.html" class="parkCard-link">
-          <img src="./img/parks/botanicGardens/where-to-go/whereToGo.png" class="parkCard-img-top"
-            alt="Botanic Gardens" />
-          <div class="parkCard-body">
-            <h5 class="parkCard-title">Botanic Gardens</h5>
-          </div>
-        </a>
-      </div>
-      <div class="parkCard">
-        <a href="./pages/glasgowGreen.html" class="parkCard-link">
-          <img src="img/parks/glasgowGreen/carousel/GlasgowgreenMonument.png" class="parkCard-img-top"
-            alt="Glasgow Green" />
-          <div class="parkCard-body">
-            <h5 class="parkCard-title">Glasgow Green</h5>
-          </div>
-        </a>
-      </div>
-      <div class="parkCard">
-        <a href="./pages/kelvinGrove.html" class="parkCard-link">
-          <img src="img/parks/kelvinGrove/winter.jpg" class="parkCard-img-top" alt="Kelvin Grove Park" />
-          <div class="parkCard-body">
-            <h5 class="parkCard-title">Kelvin Grove</h5>
-          </div>
-        </a>
-      </div>
-      <div class="parkCard">
-        <a href="./pages/pollock.html" class="parkCard-link">
-          <img src="./img/parks/pollock/carousel/pollock_trail.jpeg" class="parkCard-img-top"
-            alt="Pollock Country Park" />
-          <div class="parkCard-body">
-            <h5 class="parkCard-title">Pollock Park</h5>
-          </div>
-        </a>
-      </div>
-      <div class="parkCard">
-        <a href="./pages/victoria.html" class="parkCard-link">
-          <img src="./img/parks/victoria/carousel/victoria_park.jpeg" class="parkCard-img-top" alt="Victoria Park" />
-          <div class="parkCard-body">
-            <h5 class="parkCard-title">Victoria Park</h5>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
-  <!-- Where to go Section end -->
-
-  <!-- Newsletter Begins -->
-  <section class="newsletter py-5">
-    <h3 class="display-6  text-center">Newsletter</h3>
-    <p class="py-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum sit excepturi, illo voluptatum, porro
-      necessitatibus omnis quis deserunt iusto facilis placeat asperiores. Earum soluta temporibus et fuga eligendi,
-      neque omnis.
-      Porro sapiente ipsam error voluptates, excepturi consectetur nisi fugit, quaerat suscipit repellendus distinctio
-      maxime consequuntur fugiat dolorem provident necessitatibus inventore quia eaque est natus iste, consequatur
-      incidunt ut soluta. Aperiam.
-      Suscipit veniam doloremque expedita, inventore odit numquam alias, voluptatum rerum provident beatae iusto eos
-      placeat, possimus obcaecati? Fugit at, quaerat sint sed eveniet eum laboriosam, voluptates, officia ex nemo ea.
-    </p>
-    <form>
-      <div class="form-group mb-4 w-60">
-        <input type="text" class="form-control" placeholder="Full Name">
-      </div>
-      <div class="form-group mb-4">
-        <input type="email" class="form-control" placeholder="Email Address">
-      </div>
-      <div class="form-group mb-4">
-        <input class="checkbox mx-3" type="checkbox" name="checkbox">
-        <label for="checkbox">I have read and agree the the privicy policy</label>
-      </div>
-      <button class="btn btn-secondary">Submit</button>
-    </form>
-  </section>
-  <!-- Newsletter Ends -->
-
-  <!-- Footer start -->
-
-  <footer class="footer">
-    <div class="container-footer">
-      Arjun Sanghera &#8226; Daryl Stensland &#8226; Owen Taylor &#8226; Isabel Tizon Arranz
-    </div>
-  </footer>
-  <!-- Footer ends -->
-  <!-- Bs Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
-</body>
-
+    </footer>
+    <!-- Footer ends -->
+    <!-- Bs Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

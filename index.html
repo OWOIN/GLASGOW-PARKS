@@ -17,8 +17,8 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
   <!-- External styles -->
-  <link href="/css/index.css" rel="stylesheet" />
-  <link href="/css/parks.css" rel="stylesheet" />
+  <link href="./css/index.css" rel="stylesheet" />
+  <link href="./css/parks.css" rel="stylesheet" />
 
   <!-- Google fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,18 +30,16 @@
   <!-- Navbar start -->
   <nav class="navbar navbar-expand-lg px-5 py-2">
     <div class="container-fluid justicy-content-space-between search-container">
-      <form class="d-flex flex-row" id="searchHide">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+      <form class="d-flex flex-row" id="searchHide" name="searchHide">
+        <input aria-label="Search" class="form-control me-2" placeholder="Search" type="search" />
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>
-    <a class="navbar-brand" href="/index.html">
-      <img src="/logos/owltransparent.png" alt="logo" class="logo-img" />
-    </a>
-    <a class="nav-link" href="../index.html">Home</a>
+    <a class="navbar-brand" href="./index.html"><img alt="logo" class="logo-img" src="./logos/owltransparent.png" /></a>
+    <a class="nav-link" href="./index.html">Home</a>
     <div class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-        aria-expanded="false">Parks</a>
+      <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+        role="button">Parks</a>
       <ul class="dropdown-menu">
         <li>
           <a class="dropdown-item" href="./pages/botanicGardens.html">Botanic Gardens</a>
@@ -73,7 +71,7 @@
           </div>
         </a>
         <div id="peopleMakeGlasgow">
-          <img id="peopleMakeGlasgowLogo" src="logos/people-make-glasgow.png" alt="People Make Glasgow" />
+          <img id="peopleMakeGlasgowLogo" src="./logos/people-make-glasgow.png" alt="People Make Glasgow" />
         </div>
       </div>
     </div>
@@ -121,7 +119,7 @@
       </div>
       <div class="parkCard">
         <a href="./pages/glasgowGreen.html" class="parkCard-link">
-          <img src="img/parks/glasgowGreen/carousel/GlasgowgreenMonument.png" class="parkCard-img-top"
+          <img src="./img/parks/glasgowGreen/carousel/GlasgowgreenMonument.png" class="parkCard-img-top"
             alt="Glasgow Green" />
           <div class="parkCard-body">
             <h5 class="parkCard-title">Glasgow Green</h5>
@@ -173,7 +171,7 @@
       quaerat sint sed eveniet eum laboriosam, voluptates, officia ex nemo ea.
     </p>
     <form>
-      <div class="form-group mb-4 w-60">
+      <div class="form-group mb-4">
         <input type="text" class="form-control" placeholder="Full Name" />
       </div>
       <div class="form-group mb-4">
@@ -209,23 +207,23 @@
             <div class="row">
               <div class="col-sm">
                 <a href="https://www.twitter.com" class="socialsAlinkspicslinks">
-                  <img src="/logos/icons/twitter.png" class="socialsAlinkspics" alt="twitter">
+                  <img src="./logos/icons/twitter.png" class="socialsAlinkspics" alt="twitter">
                 </a>
                 <a href="https://www.facebook.com" class="socialsAlinkspicslinks">
-                  <img src="/logos/icons/fb.png" class="socialsAlinkspics" alt="facebook">
+                  <img src="./logos/icons/fb.png" class="socialsAlinkspics" alt="facebook">
                 </a>
                 <a href="https://www.instagram.com" class="socialsAlinkspicslinks">
-                  <img src="/logos/icons/insta.png" class="socialsAlinkspics" alt="instagram">
+                  <img src="./logos/icons/insta.png" class="socialsAlinkspics" alt="instagram">
                 </a>
 
                 <a href="https://www.youtube.com" class="socialsAlinkspicslinks">
-                  <img src="/logos/icons/youtube.png" class="socialsAlinkspics" alt="Youtube">
+                  <img src="./logos/icons/youtube.png" class="socialsAlinkspics" alt="Youtube">
                 </a>
                 <a href="https://www.linkedin.com" class="socialsAlinkspicslinks">
-                  <img src="/logos/icons/linkedin.png" class="socialsAlinkspics" alt="LinkedIn">
+                  <img src="./logos/icons/linkedin.png" class="socialsAlinkspics" alt="LinkedIn">
                 </a>
                 <a href="https://www.google.com" class="socialsAlinkspicslinks">
-                  <img src="/logos/icons/goolge.png" class="socialsAlinkspics" alt="Google">
+                  <img src="./logos/icons/goolge.png" class="socialsAlinkspics" alt="Google">
                 </a>
               </div>
             </div>
@@ -254,11 +252,11 @@
             <div class="row">
               <div class="col-sm">
                 <a href="https://peoplemakeglasgow.com/" class="socialsAlinkspicslinks">
-                  <img src="/logos/people-make-glasgow.png" class="CampaignPics" alt="People Make Glasgow">
+                  <img src="./logos/people-make-glasgow.png" class="CampaignPics" alt="People Make Glasgow">
                 </a>
 
                 <a href="https://www.glasgow.gov.uk/" class="socialsAlinkspicslinks">
-                  <img src="/logos/Glasgow_City_Council_logo.png" class="CampaignPics" alt="Glasgow Council">
+                  <img src="./logos/Glasgow_City_Council_logo.png" class="CampaignPics" alt="Glasgow Council">
                 </a>
               </div>
             </div>

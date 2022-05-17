@@ -333,4 +333,13 @@ html {
 	.right {
 		grid-row: 1;
 	}
+	/* @media Information Section end */
+	/*footer start*/
+	.form-group.mb-4 {
+		width: 100%;
+	}
+	.btn.btn-secondary {
+		width: 100% !important;
+	}
+	/*footer end*/
 }

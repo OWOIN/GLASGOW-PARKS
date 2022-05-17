@@ -9,6 +9,9 @@ body {
 /* Navbar start */
 
 /* bootstrap fixes*/
+.navbar {
+	background-color: #9fc088;
+}
 .btn {
 	background-color: #f5f5f5 !important;
 	width: 90px !important;
@@ -132,7 +135,7 @@ body {
 	background-color: rgb(228, 237, 222);
 	padding: 0 10%;
 	margin-bottom: 50px;
-}	
+}
 
 form {
 	display: flex;
@@ -144,7 +147,6 @@ form {
 	display: flex;
 	align-items: center;
 	width: 70%;
-	
 }
 
 .form-control {
@@ -159,6 +161,7 @@ form {
 .btn-secondary {
 	background-color: #5e493b !important;
 	border: solid 1px #5e493b;
+	width: 20% !important;
 }
 
 .btn-secondary:hover {
@@ -188,19 +191,22 @@ html {
 	margin-top: 100px;
 }
 #socialLinks {
+	padding: 50px 15%;
 	background-color: #ffffff;
 	color: #000000;
 }
 #bottomFooter {
 	background-color: #604126;
-	color:#f5f5f5 ;
-
+	color: #f5f5f5;
 }
 .socialsAlinks {
-	font-size: 10px;
+	font-size: 14px;
 	color: #000000;
 	text-decoration: none;
 	text-align: left;
+}
+.socialsAlinks:hover {
+	color: #614124 !important;
 }
 .linksList {
 	line-height: 20px;
@@ -209,9 +215,11 @@ html {
 .socialsAlinkspics {
 	width: 25px;
 }
+
 .socialsAlinkspicslinks {
 	text-decoration: none;
 }
+
 .CampaignPics {
 	width: 100px;
 	margin-top: 4px;
@@ -282,13 +290,11 @@ html {
 	}
 	#indexForm {
 		text-align: left;
-	
 	}
 	#formSumbitButton {
 		background-color: #916c4d !important;
 		padding: 10px 40px 10px 20px;
 	}
-	
 }
 
 @media only screen and (max-width: 600px) {

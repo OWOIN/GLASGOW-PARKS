@@ -313,4 +313,16 @@ html {
 	.btn.btn-secondary {
 		width: 100% !important;
 	}
+	.container-sm.px-5.py-5 {
+		display: none;
+	}
+	.newsletter.py-5 {
+		display: none;
+	}
+	.footer {
+		display: none;
+	}
+	.hero {
+		height: calc(100vh - 84px);
+	}
 }
